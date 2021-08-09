@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0.1" /> -->
+    <meta name="viewport" content="width=1024" />
+    <title>DecimaLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <div class="main">
+      <div class="hero-section">
+        <!-- NAVBAR SECTION -->
+        <section class="header">
+          <a href="/" style="display: flex">
+            <div class="header-logo">
+              <img
+                src="assets/logo.png"
+                alt=""
+                style="height: 50px; margin-right: 15px"
+              />
+              <a class="header-title">DecimaLab</a>
+            </div>
+          </a>
+          <div class="header-nav">
+            <ul class="header-nav-list">
+              <li><a id="home">Home</a></li>
+              <li><a id="about">About</a></li>
+              <li><a id="services">Services</a></li>
+              <li><a id="contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </section>
+        <!-- HERO BODY SECTION -->
+        <section class="hero-section-body">
+          <h1>Bringing technology into life</h1>
+          <p>We work to make technology easy and accessible to use</p>
+        </section>
+      </div>
+
+      <!-- ABOUT US SECTION -->
+      <section id="#about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section id="#services" class="services-section">
+        <h2>Services We Offer</h2>
+        <div class="services-list">
+          <div class="service-card">
+            <div class="inner-service-card">
+              <object data="./assets/webdev.svg" type=""></object>
+              <h3>Web Application Development</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="inner-service-card">
+              <object data="./assets/mobile.svg" type=""></object>
+              <h3>Mobile Application Development</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="inner-service-card">
+              <object data="./assets/computer.svg"></object>
+              <h3>UI/UX Design</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Showcasing -->
+      <section id="#projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="/assets/26.jpg" alt="Avatar" />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>John Doe</h1>
+                      <p>Architect & Engineer</p>
+                      <p>We love that guy</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="assets/26.jpg" alt="Avatar" />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>John Doe</h1>
+                      <p>Architect & Engineer</p>
+                      <p>We love that guy</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="assets/26.jpg" alt="Avatar" />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>John Doe</h1>
+                      <p>Architect & Engineer</p>
+                      <p>We love that guy</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="splide__slide">
+                <img src="/bg.jpg" />
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR TEAM SECTION -->
+      <section class="team-section">
+        <h2>Our Team</h2>
+        <div>
+          <ul class="team-list">
+            <li class="team-member-cotainer">
+              <img src="/assets/tamzid.jpg" alt="" />
+              <div class="team-member-overlay">
+                <p>Enamul Karim Tamzid</p>
+                <p style="font-size: small">Fullstack Developer</p>
+              </div>
+            </li>
+            <li class="team-member-cotainer">
+              <img src="/assets/tamzid.jpg" alt="" />
+              <div class="team-member-overlay">
+                <p>Enamul Karim Tamzid</p>
+                <p style="font-size: small">Fullstack Developer</p>
+              </div>
+            </li>
+            <li class="team-member-cotainer">
+              <img src="/assets/tamzid.jpg" alt="" />
+              <div class="team-member-overlay">
+                <p>Enamul Karim Tamzid</p>
+                <p style="font-size: small">Fullstack Developer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- FEEDBACK SECTION -->
+      <!-- <section class="feedback-section">
+        <h2>Client Feedbacks</h2>
+        <p>
+          We provide technological services and solutions such as – Mobile
+          (Android & IOS) and web application development, Cross- platform
+          application development, Game development, SEO and website development
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section> -->
+
+      <!-- CONTACT US SECTION -->
+      <section id="#contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-body">
+          <div class="left-side">
+            <p class="header-title">DecimaLab</p>
+            <p>
+              <span
+                ><i class="fas fa-phone-alt" style="color: #49d5ff"></i
+              ></span>
+              +8801722237176
+            </p>
+            <p>
+              <span
+                ><i class="fas fa-envelope" style="color: #49d5ff"></i
+              ></span>
+              e.k.tamzid@gmail.com
+            </p>
+            <p>
+              <span
+                ><i class="fas fa-map-marker-alt" style="color: #49d5ff"></i
+              ></span>
+              Khulna, Bangladesh
+            </p>
+          </div>
+          <form id="contact-form" class="right-side">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" />
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="text"
+              placeholder="Enter your email address"
+            />
+            <label for="query">Your query</label>
+            <textarea id="query" rows="4" cols="50"> </textarea>
+            <button
+              type="submit"
+              class="btn-round-border"
+              placeholder="Enter your query"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="footer">
+        <p>© Designed and developed by DecimaLab</p>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
